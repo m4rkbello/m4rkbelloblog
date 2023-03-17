@@ -1,0 +1,220 @@
+/* CSS Libraries Used 
+
+*Animate.css by Daniel Eden.
+*FontAwesome 4.7.0
+*Typicons
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+
+body, html {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-image: linear-gradient(45deg,black, #fc00ff, #ff00dd,  #00dbde,#00fbff, black); 
+  padding: 0;
+  margin: 0;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  margin: 0;
+  top: 50px;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+  background-color: transparent;
+  border-radius: 30px;
+  border-top: 15px solid black;
+  border-bottom: 15px solid black;
+  width: 400px;
+  height: 500px;
+  box-shadow: 1px 1px 70px 7px black;
+  color: white;
+}
+
+.box h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black; 
+  font-size: 18px;
+  margin-top:90px;;
+}
+
+.box h1 span {
+  color: #00dbde;
+  font-weight: lighter;
+  text-shadow: 1px 1px 3px 0px black;
+}
+
+.box h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  color: #fc00ff;
+  letter-spacing: 0px;
+  margin-top: -15px;
+  margin-bottom: 70px;
+  text-shadow: 1px  black;
+}
+
+.box input[type = "text"],.box input[type = "password"] {
+  display: block;
+  font-size: 17px;
+  margin: 15px auto;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  /* box-shadow: 1px 1px 5px 0px black; */
+   border-bottom: 3px solid black; 
+  border-radius: 5px;
+  padding: 10px 15px;
+  width: 310px;
+  outline: none;
+  color: black;
+      -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+  
+}
+::-webkit-input-placeholder {
+  color: black;
+}
+
+.box input[type = "text"]:focus,.box input[type = "password"]:focus {
+  border: mone;
+  
+}
+
+a{
+  color: #00dbde;
+  text-decoration: none;
+} 
+
+a:hover {
+  text-decoration: underline;
+  border-bottom: #fc00ff;
+
+}
+
+ label input[type = "checkbox"] {
+  display: none; /* hide the default checkbox */
+}
+
+/* style the artificial checkbox */
+label span {
+  height: 13px;
+  width: 13px;
+  border: 5px solid #00dbde;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  left: 7.5%;
+}
+
+.btn1 {
+  border:0;
+  background-image: linear-gradient(0deg, #fc00ff, #00dbde);
+  color: black;
+  border-radius: 100px;
+  width: 340px;
+  height: 55px;
+  font-size: 16px;
+  position: absolute;
+  top: 73%;
+  left: 8%;
+  transition: 0.3s;
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+  box-shadow: 1px 1px 3px 0px black;
+}
+
+.btn1:hover {
+  background-image: linear-gradient(180deg, #fc00ff, #00dbde);
+  box-shadow: 1px 3px 15px 0px black;
+}
+}
+
+.rmb {
+  position: absolute;
+  margin-left: -24%;
+  margin-top: 0px;
+  color: #dfdeee;
+  font-size: 13px;
+}
+
+.forgetpass {
+  position: relative;
+  float: right;
+  right: 28px;
+}
+
+.dnthave{
+    position: absolute;
+    top: 92%;
+    left: 24%;
+}
+
+[type=checkbox]:checked + span:before {/* <-- style its checked state */
+    font-family: FontAwesome;
+    font-size: 16px;
+    content: "\f00c";
+    position: absolute;
+    top: -4px;
+    color: black;
+    left: -1px;
+    width: 13px;
+}
+
+.typcn {
+  position: absolute;
+  left: 339px;
+  top: 282px;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}      
+
+.typcn.active {
+  color: white;
+}
+
+.error {
+  background: #ff3333;
+  text-align: center;
+  width: 337px;
+  height: 20px;
+  padding: 2px;
+  border: 0;
+  border-radius: 5px;
+  margin: 10px auto 10px;
+  position: absolute;
+  top: 31%;
+  left: 7.2%;
+  color: white;
+  display: none;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    top: 605px;
+    width: 100%;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer .fa {
+  color: #00dbde;
+}
